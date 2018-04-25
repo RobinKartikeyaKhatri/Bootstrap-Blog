@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbar-custom{
+	position:absolute;
+	top:0;
+	width:100%;
+}
+
+.navbar a{
+	color:white;
+}
+
+.navbar-brand{
+	font-size:35px;
+}
+
+.nav li a:hover{
+	background-color:maroon;
+}
+
+header{
+	background:url(../images/header.jpg);
+	color:white;
+	height:450px;
+	padding:150px 50px;
+}
+
+.post{
+	border-bottom:1px solid black;
+}
+
+.post a{
+	color:black;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+.post a:hover{
+	color:maroon;
+}
